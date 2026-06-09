@@ -1,6 +1,7 @@
-streamlit
+scikit-learn
+joblib
 pandas
 numpy
-scikit-learn
+streamlit
 plotly
-joblib
+catboost
