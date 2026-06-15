@@ -79,7 +79,7 @@ with st.form("prediction_remaining_form"):
         user_words = st.slider("Review Summary Word Count:", min_value=2, max_value=60, value=12)
 
     # Form Submission Button
-    submit_button = st.form_submit_button(label="🔮 Run Sentiment Prediction Pipeline")
+    submit_button = st.form_submit_button(label="🔮 Run Sentiment Prediction")
 
 # --- SECTION 4: INFERENCE RUNNER ---
 if submit_button:
